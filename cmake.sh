@@ -8,3 +8,5 @@ do
         echo "aux_source_directory($i DIRS)" >> CMakeLists.txt
 done
 echo "add_executable(\${PROJECT_NAME} \${DIRS})" >> CMakeLists.txt
+
+echo "add 1" 
